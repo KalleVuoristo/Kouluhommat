@@ -1,0 +1,6 @@
+Laatu/Laadunvalvonta
+
+Laatuun pyrit‰‰n huolellisella suunnittelulla ja riitt‰v‰ll‰ testaamisella. 
+Dokumenttien laatua valvotaan siten ett‰, dokumenttien edistymist‰ seurataan jatkuvasti ryhm‰n kokouksissa, pidet‰‰n katselmuksia. Asiakkaan pit‰‰ hyv‰ksy‰ projektisuunnitelma ja vaatimusdokumentti. Laatua pidet‰‰n yll‰ siten, ett‰ dokumentteihin voi tehd‰ muutoksia ainoastaan kokouksissa.
+Tuotteen laatua valvotaan siten ett‰, suunnittelu vaiheessa pysyt‰‰n m‰‰rittelyn asettamissa rajoissa. Asiakkaaseen pidet‰‰n yhteytt‰ koko projektin ajan. Tuotteille laaditaan laaja testaussuunnitelma ja testauksen tulokset kirjataan ylˆs testausdokumentteja varten. N‰ill‰ asioilla pyrit‰‰n siihen ett‰ tuotteen laatu pysyy hyv‰n‰.
+Laadunvalvontakatselmuksissa tarkistetaan projektissa tuotettu dokumentti tai ohjelmiston osa eritt‰in tarkasti. Katselmuksiin osallistuu koko projektiryhm‰, ryhm‰n ohjaaja sek‰ tietyiss‰ asioissa asiakas. Katselmuksien tarkoitus on k‰yd‰ l‰pi jo tehtyj‰ asioita ja lˆyt‰‰ niist‰ virheit‰.
