@@ -1,0 +1,3 @@
+Haiseva koodi tarkoittaa koodia, jossa on jokin pienempi asia, mikä saattaa johtaa isompiin ongelmiin. 
+Ne eivät yleensä ole bugeja vaan osia, jotka ovat epäkäytännöllisiä ja saattavat aiheuttaa bugin.
+Eli lyhyesti sanottu haiseva koodi on koodin osa, joka aiheuttaa ongelmia ja on epäkäytännöllinen eikä kuulu koodiin.
