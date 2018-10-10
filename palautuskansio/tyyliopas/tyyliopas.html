@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Harjoitustyö tyylioppaan laatiminen</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="tyyliopas.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+	  <img class="logo" src="logo.png"  onclick="window.location.href='tyyliopas.html'"></img>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Etusivu</a></li>
+        <li><a href="#">Asunnot</a></li>
+        <li><a href="#">Yhteystiedot</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Kirjaudu sisään</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+  
+<div class="containeri-fluid text-center">    
+  <div class="row-content">
+    <div class="col-sm-2 sidenav">
+	<div class="well">
+	<b><p>Hepolamminkatu 10</p></b>
+	<img class="asunto1" src="asunto1.jpg"></img>
+	<hr>
+	
+	<b><p>Hämeenkatu 24</p></b>
+	<img class="asunto2" src="asunto2.jpg"></img>
+	<hr>
+	
+	<b><p>Piettasenkatu 33 K 26</p></b>
+	<img class="asunto3" src="asunto3.jpg" height="195"></img>
+	<hr>
+	</div>
+    </div>
+    <div class="col-sm-8 text-left"> 
+      <h2 class="arial">Otsikot ja fontit</h2>
+      <p>Otsikoissa käytetään h1, h2 ja h3 elementtejä.</p>
+	  <p>H1 fontti on Arial ja sen pistekoko on 45.</p>
+	  <p>H2 fontti on Arial ja sen pistekoko on 35.</p>
+	  <p>H3 fontti on Arial ja sen pistekoko on 25.</p>
+	  <p>Normaalissa tekstissä fonttina on Times New Roman. Normaalissa tekstissä fontti koko on 14pt.</p>
+      <hr><hr>
+	  
+      <h2>Header ja Footer</h2>
+	  <p>Headerin ja Footerin väri on #7fb8ff.</p>
+      <p>Headerissä on logo ja navigointi.</p>
+	  <p>Footerissa on yrityksen nimi.</p>
+	  <p>Footer on määritetty fixediksi ja sen <b>width on 100% ja padding on 5px.</b></p>
+	  <hr><hr>
+	  
+	  <h2>Logo</h2>
+	  <p>Logossa on käytetty muutamaa yksinkertaista muotoa.</p>
+	  <p>Liikemerkkinä on käytetty ympyrää ja ne on värjätty eriväriseksi.</p>
+	  <p>Yrityksen nimi on kirjoitettu liikemerkin sisään.</p>
+	  <p>Logon koko on määritetty seuraavanlaisesti: <b>width:75px ja height:75px.</b></p>
+	  <hr><hr>
+	  
+	  <h2>Kuvat</h2>
+	  <p>Kuvat on sijoitettu sivun reunoille sidenav divin sisälle.</p>
+	  <p>Kuvien koko on: <b>height: 195px ja width: 195px.</b></p>
+	  <hr><hr>
+	  
+	  <h2>Sisältölaatikot</h2>
+	  <p>Jokaisella niin sanotulla osa-alueella on oma divi.<p>
+	  <p>Headerin diviin sisältyy navigointi ja logo. Sen gridi on 12.</p>
+	  <p>Footerin diviin sisältyy ainoastaan footerissa oleva teksti. Sen gridi on 12.</p>
+	  <p>Itse sisältö on jaettu muutamaan diviin.</p>
+	  <p>Sivuissa olevat kuvat ovat sidenav divin sisällä ja niiden gridi on 2. Kuvat ovat divin sisällä, jonka class on well ja se aiheuttaa sen että kuvat ovat niin sanotussa laatikossa. Sidenavin taustaväri on valkoinen ja padding-top on 15px.</p>
+	  <p>Keskellä oleva teksti on divin sisällä, jonka gridi on 8.</p>
+	  <hr><hr>
+	  
+	  <h2>Painikkeet</h2>
+	  <p>Painikkeina toimivat kuvat ja teksti.</p>
+	  <p>Teksti painikkeita käytetään headerissä  ja kuva painikkeita headerissä ja sivun reunoilla.</p>
+	  <p>Teksti painikkeiden fontti koko on 15 pistettä ja niiden fontti on Arial.</p>
+	  <p>Kuva painikkeet toimivat siten että kuvaa klikataan ja se ohjaa uudelle sivulle.</p>
+	  <hr><hr>
+	  
+	  <h2>Pudotusvalikko</h2>
+	  <p>Pudotusvalikko toimii vain pienillä ruuduilla.</p>
+	  <p>Pudotusvalikon koko <b>max-width: 767px</b>ja korkeus on määritetty automaattisesti.</p>
+	  <hr><hr>
+	  
+    </div>
+    <div class="col-sm-2 sidenav">
+	<div class="well">
+<b><p>Mäentakusenkatu 14</p></b>
+	<img class="asunto4" src="asunto4.jpg"></img>
+	<hr>
+	
+	<b><p>Piettasenkatu 26</p></b>
+	<img class="asunto5" src="asunto5.jpg"></img>
+	<hr>
+	
+	<b><p>Insinöörinkatu 43</p></b>
+	<img class="asunto6" src="asunto6.jpg"></img>
+	<hr>
+	
+	</div>
+    </div>
+  </div>
+</div>
+
+
+<footer class="container-fluid text-center">
+<p>Asunto.fi</p>
+</footer>
+
+
+
+</body>
+</html>

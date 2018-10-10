@@ -1,0 +1,119 @@
+
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+	
+    }
+    
+
+	
+    .row.content {height: 450px}
+    
+
+    .sidenav {
+      padding-top: 15px;
+      background-color: #ffffff;
+   
+    }
+    
+ 
+    footer {
+      background-color: #7fb8ff;
+      color: white;
+      padding: 5px;
+	  position:fixed;
+	  width:100%;
+	  bottom:0px;
+	  left:0px;
+	  text-align:center;
+    }
+
+	
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+	
+	.logo {
+	width: 75px;
+	height: 75px;
+	}
+	
+	img:hover{
+	cursor:pointer;
+	}
+	
+	li {
+	height: 75px;	
+	padding: 14px 10px;
+	font-family: Arial;
+	font-size:15pt;
+	}
+	
+	.arial {
+	font-family: Arial;
+	}
+	
+	p {
+	font-family: Times;
+	font-size:14pt;
+	}
+	
+	h1 {
+	font-family: Arial;
+	font-size:45pt;
+	}
+	
+		
+	h2 {
+	font-family: Arial;
+	font-size:35pt;
+	}
+	
+		
+	h3 {
+	font-family: Arial;
+	font-size:25pt;
+	}
+	
+	.container-fluid {
+	background-color:#7fb8ff;
+	}
+	
+	.asunto1 {
+	height:195px;
+	width:195px;
+	}
+	
+	.asunto2 {
+	height:195px;
+	width:195px;
+	}
+	
+	.asunto3 {
+	height:195px;
+	width:195px;
+	}
+	
+	.asunto4 {
+	height:195px;
+	width:195px;
+	}
+	
+	.asunto5 {
+	height:195px;
+	width:195px;
+	}
+	
+	.asunto6 {
+	height:195px;
+	width:195px;
+	}
+
+
+	
+
+
