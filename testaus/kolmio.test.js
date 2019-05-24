@@ -6,15 +6,16 @@ test('syötteet ei numeromaisia merkkijonoja "kanta"+"korkeus", heittää poikke
 });
 
 test('Laskee kolmion pinta-alan', () => {
-    expect(kolmio(25,5)).toBe(kolmio);
+    expect(kolmio(2,2)).toBe(2);
 });
 
-test('Yritetään negatiivisella luvulla, pyydetään jokin positiivinen luku', () => {
-    expect(() => {kolmio(4,-13)}).toThrow('Negatiivisellä luvulla ei onnistu. Anna positiivinen luku');
+test('Yritetään jakaa negatiivisella luvulla, pyydetään jokin positiivinen luku', () => {
+    expect(() => {kolmio(4,-13)}).toThrow('Negatiivisella luvulla ei onnistu. Anna positiivinen luku');
     
 });
 
 test('Yritetään negatiivisella luvulla, pyydetään jokin positiivinen luku', () => {
-    expect(() => {kolmio(-4,4)}).toThrow('Negatiivisellä luvulla ei onnistu. Anna positiivinen luku');
+    expect(() => {kolmio(-4,4)}).toThrow('Negatiivisella luvulla ei onnistu. Anna positiivinen luku');
     
 });
+
