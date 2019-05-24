@@ -16,11 +16,6 @@ if(Number.isNaN(jakaminen)){
     throw new Error('ei lukuja');
 }
 
-    if(a / b) {
-        return osamaara;
-    }
-    else {
-        return false;
-    }
+return a/b;
 }
 module.exports = osamaara;
