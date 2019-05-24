@@ -10,16 +10,11 @@ test('Laskee kolmion pinta-alan', () => {
 });
 
 test('yritetään jakaa negatiivisella luvulla, pyydetään jokin positiivinen luku', () => {
-    expect(() => {kolmio(4,-13)}).toThrow('negatiivisella luvulla jakaminen ei onnistu');
+    expect(() => {kolmio(4,-13)}).toThrow('Negatiivisellä luvulla ei onnistu. Anna positiivinen luku');
     
 });
 
 test('yritetään jakaa negatiivisella luvulla, pyydetään jokin positiivinen luku', () => {
-    expect(() => {kolmio(-4,4)}).toThrow('negatiivisella luvulla jakaminen ei onnistu');
-    
-});
-
-test('yritetään jakaa negatiivisillä luvuilla, pyydetään jotkut positiiviset luvut', () => {
-    expect(() => {kolmio(-10,-1)}).toThrow('negatiivisella luvulla jakaminen ei onnistu');
+    expect(() => {kolmio(-4,4)}).toThrow('Negatiivisellä luvulla ei onnistu. Anna positiivinen luku');
     
 });
