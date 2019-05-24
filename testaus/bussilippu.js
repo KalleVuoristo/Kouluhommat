@@ -7,22 +7,20 @@ function bussilippu(a) {
     
     if(a<7) {
     return 0;
-    }
-    if (a>7 && a<=16){
+    } else if (a>7 && a<16){
     return 1;
     }
-    if (a>16 && a<=25){
+    else if (a>=16 && a<=25){
     return 1.5;
     }
-    if (a>25 && a<=65){
+    else if (a>25 && a<=65){
     return 3;
     }
-    if (a>65){
+    else if (a>65){
     return 1.50;
+    } else {
+        return 3;
     }
-  
-    
-
 
 }
 module.exports = bussilippu;
