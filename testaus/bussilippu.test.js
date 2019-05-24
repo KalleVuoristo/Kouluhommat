@@ -9,7 +9,7 @@ test('suorittaa iän tarkistuksen, bussilipun hinta ilmainen', () => {
 });
 
 test('suorittaa iän tarkistuksen, bussilipun hinta 1 euro', () => {
-    expect(bussilippu(16)).toBe(1);
+    expect(bussilippu(8)).toBe(1);
 });
 
 test('suorittaa iän tarkistuksen, bussilipun hinta 1,5 euroa', () => {
