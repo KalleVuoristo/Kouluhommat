@@ -1,30 +1,22 @@
 function kolmio(a,b) {
    
-    if(a <=-1){
-        throw new Error('negatiivisella luvulla jakaminen ei onnistu');
+    if(a <=-0){
+        throw new Error('Negatiivisellä luvulla ei onnistu. Anna positiivinen luku');
     }
     
-    if(b <=-1){
-        throw new Error('negatiivisella luvulla jakaminen ei onnistu');
+    if(b <=-0){
+        throw new Error('Negatiivisellä luvulla ei onnistu. Anna positiivinen luku');
     }
     
-    if(a <=-1 & b<=-1){
-        throw new Error('negatiivisella luvulla jakaminen ei onnistu');
-    }
     
-
     let pintaala = Number(a)*Number(b)/2;
     if(Number.isNaN(pintaala)){
         throw new Error('ei lukuja, anna kolmion kanta ja korkeus');
     }
 
 
-    if(a * b / 2) {
-        return kolmio;
-    }
-    else {
-        return false;
-    }
+   return a * b / 2;
+
 
 
 }
